@@ -1,0 +1,30 @@
+{
+  "name": "recipeplanwebsite",
+  "version": "1.0.0",
+  "description": "This is my website for my Recipe Meal Plan Application",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aspears313/RecipesPlanWebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aspears313/RecipesPlanWebsite/issues"
+  },
+  "homepage": "https://github.com/aspears313/RecipesPlanWebsite#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
