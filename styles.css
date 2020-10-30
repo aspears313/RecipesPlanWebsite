@@ -55,6 +55,11 @@
     background-color: rgb(224, 9, 9);
 }
 
+.card-header{
+    color: red;
+    border-bottom: 1px solid red;
+}
+
 .card {
     margin-top: 30px;
 }
@@ -63,3 +68,6 @@
     max-width: 100%;
     height: auto;    
 }
+
+
+
