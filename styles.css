@@ -5,10 +5,17 @@
     background-position: center;
     height: auto;
     background-attachment: fixed; 
-    margin: 0; 
 }
 
-h1, h2 {color: white;}
+
+.title { color: white; }
+
+.recipes-title { 
+    color: rgb(224, 9, 9);
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
 
 .navbar {
     padding-left: 0;
@@ -46,4 +53,13 @@ h1, h2 {color: white;}
 
 #loginButton {
     background-color: rgb(224, 9, 9);
+}
+
+.card {
+    margin-top: 30px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;    
 }
