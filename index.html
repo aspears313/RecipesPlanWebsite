@@ -30,22 +30,22 @@
                                         <a class="nav-link" href="#">Recipes</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Calendar</a>
+                                        <a class="nav-link" href="calendar.html">Calendar</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Shopping</a>
+                                        <a class="nav-link" href="shopping.html">Shopping</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Meals</a>
+                                        <a class="nav-link" href="meals.html">Meals</a>
                                     </li>
                                 </ul>
                                 <span class="navbar-text ml-auto btn" id="loginButton">
-                                    <a role="button" id="login">
+                                    <a role="button" class="login">
                                         <i class="fa fa-sign-in"> </i> Login
                                     </a>
                                 </span>
                                 <span class="navbar-text ml-4 mr-0 btn" id="signupButton">
-                                    <a role="button" id="signup">
+                                    <a role="button" class="signup">
                                         <i class="fa fa-user-plus"> </i> Sign Up
                                     </a>
                                 </span>
@@ -65,156 +65,101 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h3 class="recipes-title">Your Recipes</h3>
+                    <h3 class="recipesTitle">Your Recipes</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="card-deck">
-                    <div class="card border-danger text-center">
-                        <div class="card-header">
-                            Lasagne
-                        </div>
-                        <div class="card-body">
-                            <img class="img-fluid" src="img/Lasagne.jpg" alt="Lasagne Pic">
-                        </div>
+                <div class="card-columns">
+                    <div class="card">
+                        <a class= "recipeCard stretched-link">
+                            <img class="img img-fluid card-img-top" src="img/Lasagne.jpg" alt="Lasagne Pic">
+                            <div class="recipeName">Lasagne</div>
+                        </a>
                     </div>
-                    <div class="card border-danger text-center">
-                        <div class="card-header">
-                            Chicken Marasala
-                        </div>
-                        <div class="card-body">
-                            <img class="img-fluid" src="img/chicken marsala.jpg" alt="Chicken Marsala Pic">
-                        </div>
+                    <div class="card">
+                        <a class="recipeCard stretched-link">
+                            <img class="img-fluid card-img-top" src="img/breakfastPic.jpeg" alt="Breakfast Pic">
+                            <div class="recipeName">Scrambled Eggs</div>
+                        </a> 
                     </div>
-                    <div class="card text-center">
-                        <h4 class="card-header bg-danger text-white">Breakfast</h4>
-                        <div class="card-body">
-                            <img class="img-fluid" src="img/breakfastPic.jpeg" alt="Breakfast Pic">
-                        </div>
+                    <div class="card">
+                        <a class="recipeCard stretched-link">
+                            <img class="img-fluid card-img-top" src="img/chicken marsala.jpg" alt="Chicken Marsala Pic">
+                            <div class="recipeName">Chicken Marsala</div>
+                        </a> 
                     </div>
-                    <div class="card text-center">
-                        <h4 class="card-header bg-danger text-white">Burger</h4>
-                        <div class="card-body">
-                            <img class="img-fluid" src="img/burger.jpg" alt="Burger Pic">
-                        </div>
-                    </div> 
+                    <div class="card">
+                        <a class="recipeCard stretched-link">
+                            <img class="img-fluid card-img-top" src="img/burger.jpg" alt="Burger Pic">
+                            <div class="recipeName">Burger</div>
+                        </a>  
+                    </div>
+                    <div class="card">
+                        <a class="recipeCard stretched-link">
+                            <img class="img-fluid card-img-top" src="img/burger.jpg" alt="Burger Pic">
+                            <div class="recipeName">Burger</div>
+                        </a>  
+                    </div>
+                    <div class="card">
+                        <a class="recipeCard stretched-link">
+                            <img class="img-fluid card-img-top" src="img/Lasagne.jpg" alt="Lasagne Pic">
+                            <div class="recipeName">Lasagne</div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a class="recipeCard stretched-link">
+                            <img class="img-fluid card-img-top" src="img/breakfastPic.jpeg" alt="Breakfast Pic">
+                            <div class="recipeName">Scrambled Eggs</div>
+                        </a> 
+                    </div>
+                    <div class="card">
+                        <a class="recipeCard stretched-link">
+                            <img class="img-fluid card-img-top" src="img/chicken marsala.jpg" alt="Chicken Marsala Pic">
+                            <div class="recipeName">Chicken Marsala</div>
+                        </a> 
+                    </div>
+                    <div class="card">
+                        <a class="recipeCard stretched-link">
+                            <img class="img-fluid card-img-top" src="img/breakfastPic.jpeg" alt="Breakfast Pic">
+                            <div class="recipeName">Scrambled Eggs</div>
+                        </a> 
+                    </div>
+                    <div class="card">
+                        <a class="recipeCard stretched-link">
+                            <img class="img-fluid card-img-top" src="img/burger.jpg" alt="Burger Pic">
+                            <div class="recipeName">Burger</div>
+                        </a>  
+                    </div>
+                    <div class="card">
+                        <a class="recipeCard stretched-link">
+                            <img class="img-fluid card-img-top" src="img/chicken marsala.jpg" alt="Chicken Marsala Pic">
+                            <div class="recipeName">Chicken Marsala</div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a class="recipeCard stretched-link">
+                            <img class="img-fluid card-img-top" src="img/Lasagne.jpg" alt="Lasagne Pic">
+                            <div class="recipeName">Lasagne</div>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="card-deck">
-                    <div class="card text-center">
-                        <h4 class="card-header bg-danger text-white">Lasagne</h4>
-                        <div class="card-body">
-                            <img class="img-fluid" src="img/Lasagne.jpg" alt="Lasagne Pic">
-                        </div>
+        </div>    
+           
+        <div id="recipeModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Recipe Name</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </div>
-                    <div class="card text-center">
-                        <h4 class="card-header bg-danger text-white">Chicken Marsala</h4>
-                        <div class="card-body">
-                            <img class="img-fluid" src="img/chicken marsala.jpg" alt="Chicken Marsala Pic">
-                        </div>
+                    <div class="modal-body">
+                        <img class="modalImage modal-content" id="img01">
                     </div>
-                    <div class="card text-center">
-                        <h4 class="card-header bg-danger text-white">Breakfast</h4>
-                        <div class="card-body">
-                            <img class="img-fluid" src="img/breakfastPic.jpeg" alt="Breakfast Pic">
-                        </div>
-                    </div>
-                    <div class="card text-center">
-                        <h4 class="card-header bg-danger text-white">Burger</h4>
-                        <div class="card-body">
-                            <img class="img-fluid" src="img/burger.jpg" alt="Burger Pic">
-                        </div>
-                    </div> 
                 </div>
             </div>
-            <div class="row">
-                <div class="card-deck">
-                    <div class="card text-center">
-                        <h4 class="card-header bg-danger text-white">Lasagne</h4>
-                        <div class="card-body">
-                            <img class="img-fluid" src="img/Lasagne.jpg" alt="Lasagne Pic">
-                        </div>
-                    </div>
-                    <div class="card text-center">
-                        <h4 class="card-header bg-danger text-white">Chicken Marsala</h4>
-                        <div class="card-body">
-                            <img class="img-fluid" src="img/chicken marsala.jpg" alt="Chicken Marsala Pic">
-                        </div>
-                    </div>
-                    <div class="card text-center">
-                        <h4 class="card-header bg-danger text-white">Breakfast</h4>
-                        <div class="card-body">
-                            <img class="img-fluid" src="img/breakfastPic.jpeg" alt="Breakfast Pic">
-                        </div>
-                    </div>
-                    <div class="card text-center">
-                        <h4 class="card-header bg-danger text-white">Burger</h4>
-                        <div class="card-body">
-                            <img class="img-fluid" src="img/burger.jpg" alt="Burger Pic">
-                        </div>
-                    </div> 
-                </div>
-            </div>
-            <div class="row">
-                <div class="card-deck">
-                    <div class="card text-center">
-                        <h4 class="card-header bg-danger text-white">Lasagne</h4>
-                        <div class="card-body">
-                            <img class="img-fluid" src="img/Lasagne.jpg" alt="Lasagne Pic">
-                        </div>
-                    </div>
-                    <div class="card text-center">
-                        <h4 class="card-header bg-danger text-white">Chicken Marsala</h4>
-                        <div class="card-body">
-                            <img class="img-fluid" src="img/chicken marsala.jpg" alt="Chicken Marsala Pic">
-                        </div>
-                    </div>
-                    <div class="card text-center">
-                        <h4 class="card-header bg-danger text-white">Breakfast</h4>
-                        <div class="card-body">
-                            <img class="img-fluid" src="img/breakfastPic.jpeg" alt="Breakfast Pic">
-                        </div>
-                    </div>
-                    <div class="card text-center">
-                        <h4 class="card-header bg-danger text-white">Burger</h4>
-                        <div class="card-body">
-                            <img class="img-fluid" src="img/burger.jpg" alt="Burger Pic">
-                        </div>
-                    </div> 
-                </div>
-            </div>
-            <div class="row">
-                <div class="card-deck">
-                    <div class="card text-center">
-                        <h4 class="card-header bg-danger text-white">Lasagne</h4>
-                        <div class="card-body">
-                            <img class="img-fluid" src="img/Lasagne.jpg" alt="Lasagne Pic">
-                        </div>
-                    </div>
-                    <div class="card text-center">
-                        <h4 class="card-header bg-danger text-white">Chicken Marsala</h4>
-                        <div class="card-body">
-                            <img class="img-fluid" src="img/chicken marsala.jpg" alt="Chicken Marsala Pic">
-                        </div>
-                    </div>
-                    <div class="card text-center">
-                        <h4 class="card-header bg-danger text-white">Breakfast</h4>
-                        <div class="card-body">
-                            <img class="img-fluid" src="img/breakfastPic.jpeg" alt="Breakfast Pic">
-                        </div>
-                    </div>
-                    <div class="card text-center">
-                        <h4 class="card-header bg-danger text-white">Burger</h4>
-                        <div class="card-body">
-                            <img class="img-fluid" src="img/burger.jpg" alt="Burger Pic">
-                        </div>
-                    </div> 
-                </div>
-            </div>
-
-        </div>
-
+        </div> 
+            
         <div id="loginModal" class="modal fade" role="dialog">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -251,7 +196,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div id="signupModal" class="modal fade" role="dialog">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
