@@ -1,6 +1,5 @@
 const recipeCards = $('.recipeCard').on('click',showRecipeModal);
 
-
 $('.login').on('click', function() {
     $('#loginModal').modal('show');
 });
@@ -30,7 +29,4 @@ function showRecipeModal() {
     $('.modal-title').text(title);
 }
 
-function pictureTransform() {
-
-}
 

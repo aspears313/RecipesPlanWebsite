@@ -1,12 +1,10 @@
-
 .jumbotron {
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/LaunchPicture.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/LaunchPicture.jpg');
     background-size: cover;
     background-position: center;
     height: auto;
     background-attachment: fixed; 
 }
-
 
 .title { color: white; }
 
@@ -115,6 +113,7 @@ h4 {
 .card:hover .recipeName,
 .card:focus .recipeName {
     color: white;
+    font-size: x-large;
 }
 
 .modalImage {
